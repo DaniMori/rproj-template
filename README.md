@@ -2,7 +2,9 @@
 
 Data integration tasks of the Edad con Salud cohort data for Respond-WP2
 
-# Installation of software components
+# Project installation
+
+## Software components
 
 - Install [R version 4.2.1][R]:
   In Windows, using the [binary installer][inst] is recommended.
@@ -26,12 +28,12 @@ Data integration tasks of the Edad con Salud cohort data for Respond-WP2
 
 [GW]: https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe
 
-# Installing the project locally
+## Installing the project locally
 
 This project is hosted as a GitHub repository.
 It can be cloned as a local Git repository following [these instructions][CR]
 (steps 2 through 7).
-Note that this will create a local copy of the GitHub repository as an
+Note that this will create a local copy of ('clone') the GitHub repository as an
 Rstudio project in the folder specified.
 The URL that must be entered into the `Repository URL` text box is:
 
@@ -56,7 +58,7 @@ activate the `renv` package and make it ready for restoring the environment.
 
 [renv]: https://cran.r-project.org/package=renv
 
-# Restoring the environment
+## Restoring the environment
 
 The reproducible environment created by `renv` must be restored to install
 all the packages this project needs to be built properly. Use the
@@ -67,3 +69,27 @@ the environment. Alternatively, you can type in the console:
 renv::restore()
 ```
 
+# Repository structure
+
+The file structure of this repository is as follows:
+
+```
+respond-wp2-ecs
+|
+|--- dat       (To store input datasets; must NEVER be checked-in to Github)
+|
+|--- notebooks (Notebooks to explore data and test processes live here)
+|
+|--- output    (Processing outputs; files must be individually "checked-in" if necessary)
+|
+|--- R         (R functions created for this project live here)
+|
+|--- renv      (System library necesssary for `renv` to work. DON'T TOUCH)
+|
+|--- src       (Source scripts that implement the main processes)
+|
+|--- www       (Project assets, e.g., images, bibliography files, etc.)
+```
+
+Use the folders as indicated to store the different files and generate the
+outputs of the processes.

@@ -14,6 +14,7 @@
 # knitr and R markdown default cache directories
 *_cache/
 /cache/
+*_files/
 
 # Temporary files created by R markdown
 *.utf8.md
@@ -21,3 +22,13 @@
 
 # R Environment Variables
 .Renviron
+
+# Rmd outputs formats, other documents and files
+*.docx
+*.html
+*.pdf
+
+# Directories
+.Rproj.user
+dat
+output
