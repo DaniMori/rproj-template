@@ -1,6 +1,6 @@
-# Respository `respond-wp2-ecs`
+# Respository `<repository-name>`
 
-Data integration tasks of the Edad con Salud cohort data for Respond-WP2
+<repository-description>
 
 # Project installation
 
@@ -38,7 +38,7 @@ Rstudio project in the folder specified.
 The URL that must be entered into the `Repository URL` text box is:
 
 ```
-https://github.com/CCOMS-UAM/respond-wp2-ecs.git
+<repository_url>
 ```
 
 [CR]: https://book.cds101.com/using-rstudio-server-to-clone-a-github-repo-as-a-new-project.html#step---2
