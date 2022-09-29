@@ -46,7 +46,7 @@ The URL that must be entered into the `Repository URL` text box is:
 After cloning the repository,
 the Rstudio project will open automatically in the Rstudio IDE.
 If it doesn't, or you want to return later to the project in Rstudio,
-you can do so by double clicking on the file `mapping-initiatives.Rproj`
+you can do so by double clicking on the file `rstudio_project.Rproj`
 that has been created in the project folder when cloning the repository.
 
 **NOTE:** It is common practice to avoid using and versioning `.Rprofile` files.
