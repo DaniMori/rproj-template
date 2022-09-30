@@ -74,7 +74,7 @@ renv::restore()
 The file structure of this repository is as follows:
 
 ```
-respond-wp2-ecs
+<repository-folder>
 |
 |--- dat       (To store input datasets; must NEVER be checked-in to Github)
 |
