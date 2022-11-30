@@ -50,7 +50,7 @@ you can do so by double clicking on the file `rstudio_project.Rproj`
 that has been created in the project folder when cloning the repository.
 
 **NOTE:** It is common practice to avoid using and versioning `.Rprofile` files.
-Hoever, this project uses [package `renv`][renv]
+However, this project uses [package `renv`][renv]
 to create a reproducible environment,
 which needs the `.Rprofile` file that lives in the root directory of the
 project. **Please DO NOT delete or edit this file**; it will install and
