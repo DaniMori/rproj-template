@@ -6,11 +6,11 @@
 
 ## Software components
 
-- Install [R version 4.2.1][R]:
+- Install [R version 4.2.2][R]:
   In Windows, using the [binary installer][inst] is recommended.
 
-[R]: https://cran.rstudio.com/bin/windows/base/old/4.2.1/
-[inst]: https://cran.rstudio.com/bin/windows/base/old/4.2.1/R-4.2.1-win.exe
+[R]: https://cran.rstudio.com/bin/windows/base/old/4.2.2/
+[inst]: https://cran.rstudio.com/bin/windows/base/R-4.2.2-win.exe
 
 - [Rstudio Desktop][RS]: Although not strictly necessary, it is recommended
   to install the Rstudio IDE; for strict reproducibility, use build
@@ -18,15 +18,15 @@
 
 [RS]: https://www.rstudio.com/products/rstudio/download/#download
 
-[RSv]: https://download1.rstudio.org/desktop/windows/RStudio-2022.07.1-554.exe
+[RSv]: https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe
 
 - [Git client][G]: Install the Git client in order to be able to clone locally
   the project repository.
-  On Windows, use the [64-bit Windows installer][GW].
+  On Windows, use [the 64-bit Windows installer][GW].
 
 [G]: https://git-scm.com/download
 
-[GW]: https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/Git-2.37.3-64-bit.exe
+[GW]: https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe
 
 ## Installing the project locally
 
