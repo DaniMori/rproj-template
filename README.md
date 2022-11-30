@@ -78,6 +78,10 @@ The file structure of this repository is as follows:
 |
 |--- dat       (To store input datasets; must NEVER be checked-in to Github)
 |
+|--- doc       (To store important documentation of the project)
+|    |
+|    |--- minutes (To store meeting minutes)
+|
 |--- notebooks (Notebooks to explore data and test processes live here)
 |
 |--- output    (Processing outputs; files must be individually "checked-in" if necessary)
