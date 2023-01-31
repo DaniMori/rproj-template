@@ -28,6 +28,7 @@
 *.html
 *.pdf
 
-# Directories
+# Directories and links
 .Rproj.user
 dat
+*.lnk
