@@ -1,3 +1,10 @@
+---
+editor_options:
+  markdown:
+    wrap:      80
+    canonical: false
+---
+
 # Respository `<repository-name>`
 
 <repository-description>
@@ -60,19 +67,19 @@ activate the `renv` package and make it ready for restoring the environment.
 
 ## Restoring the environment
 
-The reproducible environment created by `renv` must be restored to install all the
-packages this project needs to be built properly. In order to this, you will need
-to install package `renv` first:
+The reproducible environment created by `renv` must be restored to install all
+the packages this project needs to be built properly. In order to this, you will
+need to install package `renv` first:
 
-```
+```         
 install.packages("renv")
 ```
 
-Once it is successfully installed, use the "renv" -> "Restore library..." button in
-Rstudio's "Packages" tab to restore the environment. Alternatively, you can type in
-the console:
+Once it is successfully installed, use the "renv" -\> "Restore library..."
+button in Rstudio's "Packages" tab to restore the environment. Alternatively,
+you can type in the console:
 
-```
+```         
 renv::restore()
 ```
 
@@ -80,26 +87,27 @@ renv::restore()
 
 The file structure of this repository is as follows:
 
-```
+```         
 <repository-folder>
 |
-|--- dat       (To store input datasets; must NEVER be checked-in to Github)
+|--- dat          (To store input datasets; must NEVER be checked-in to Github)
 |
-|--- doc       (To store important documentation of the project)
+|--- doc          (To store important documentation of the project)
 |    |
 |    |--- minutes (To store meeting minutes)
 |
-|--- notebooks (Notebooks to explore data and test processes live here)
+|--- notebooks    (Notebooks to explore data and test processes live here)
 |
-|--- output    (Processing outputs; files must be individually "checked-in" if necessary)
+|--- output       (Processing outputs; files must be individually "checked-in"
+|                 when necessary)
 |
-|--- R         (R functions created for this project live here)
+|--- R            (R functions created for this project live here)
 |
-|--- renv      (System library necesssary for `renv` to work. DON'T TOUCH)
+|--- renv         (System library necesssary for `renv` to work. DON'T TOUCH)
 |
-|--- src       (Source scripts that implement the main processes)
+|--- src          (Source scripts that implement the main processes)
 |
-|--- www       (Project assets, e.g., images, bibliography files, etc.)
+|--- www          (Project assets, e.g., images, bibliography files, etc.)
 ```
 
 Use the folders as indicated to store the different files and generate the
