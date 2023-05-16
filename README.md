@@ -60,12 +60,19 @@ activate the `renv` package and make it ready for restoring the environment.
 
 ## Restoring the environment
 
-The reproducible environment created by `renv` must be restored to install
-all the packages this project needs to be built properly. Use the
-"renv" => "Restore library..." button in Rstudio's "Packages" tab to restore
-the environment. Alternatively, you can type in the console:
+The reproducible environment created by `renv` must be restored to install all the
+packages this project needs to be built properly. In order to this, you will need
+to install package `renv` first:
 
-```r
+```
+install.packages("renv")
+```
+
+Once it is successfully installed, use the "renv" -> "Restore library..." button in
+Rstudio's "Packages" tab to restore the environment. Alternatively, you can type in
+the console:
+
+```
 renv::restore()
 ```
 
