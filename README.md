@@ -9,6 +9,35 @@ editor_options:
 
 <repository-description>
 
+# License
+
+This template is licensed under the
+[Creative Commons Attribution 4.0 International license][license]. Please
+see the [license file][licfile].
+
+When using this template, please don't forget to:
+
+- Adapt this license section to your own needs
+
+- License your own content, and remember that [open is better][choose].
+
+- Link to the [original license][license] and give appropriate credit; please do
+  so by including the following in the "License" section of your project:
+  
+  > This project makes use of the [rproj-template][selflink] Github template
+  > created by [Daniel Morillo][profile] and licensed under the 
+  > [Creative Commons Attribution 4.0 International license][license].
+
+[license]: https://creativecommons.org/licenses/by/4.0/
+
+[licfile]: LICENSE.md
+
+[choose]: https://choosealicense.com/
+
+[selflink]: https://github.com/DaniMori/rproj-template
+
+[profile]: https://github.com/DaniMori
+
 # Project installation
 
 ## Software components
