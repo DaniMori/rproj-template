@@ -19,7 +19,7 @@ When using this template, please don’t forget to:
 - Link to the [original
   license](https://creativecommons.org/licenses/by/4.0/) and give
   appropriate credit; please do so by including the following in the
-  “License” section of your project:
+  “License” section of the README.md file in your own project:
 
   > This project makes use of the
   > [rproj-template](https://github.com/DaniMori/rproj-template) Github
