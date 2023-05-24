@@ -49,6 +49,14 @@ When using this template, please don’t forget to:
 
 <!-- -->
 
+- [Quarto publishing system](https://quarto.org/): An additional
+  component used by Rstudio to generate and publish literate computing
+  outputs. For strict reproducibility please use build 1.3.353; On
+  Windows, use [the 64-bit
+  installer](https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.353/quarto-1.3.353-win.msi).
+
+<!-- -->
+
 - [Git client](https://git-scm.com/download): Install the Git client in
   order to be able to clone locally the project repository. On Windows,
   use [the 64-bit Windows
