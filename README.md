@@ -21,6 +21,8 @@ When using this template, please don’t forget to:
   appropriate credit; please do so by including the following in the
   “License” section of the README.md file in your own project:
 
+  > ## Attributions
+  >
   > This project makes use of the
   > [rproj-template](https://github.com/DaniMori/rproj-template) Github
   > template created by [Daniel Morillo](https://github.com/DaniMori)

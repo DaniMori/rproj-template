@@ -26,6 +26,8 @@ When using this template, please don't forget to:
   so by including the following in the "License" section of the README.md file
   in your own project:
   
+  > ## Attributions
+  >
   > This project makes use of the [rproj-template][selflink] Github template
   > created by [Daniel Morillo][profile] and licensed under the 
   > [Creative Commons Attribution 4.0 International license][license].
