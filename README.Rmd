@@ -109,8 +109,9 @@ activate the `renv` package and make it ready for restoring the environment.
 ## Restoring the environment
 
 The reproducible environment created by `renv` must be restored to install all
-the packages this project needs to be built properly. In order to this, you will
-need to install package `renv` first:
+the packages this project needs to be built properly. If `renv` does not
+initialize automatically (check the console for messages about this), you will
+need to manually install the package first:
 
 ```r
 install.packages("renv")
