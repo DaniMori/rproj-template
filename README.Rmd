@@ -91,6 +91,12 @@ The URL that must be entered into the `Repository URL` text box is:
 
 [CR]: https://book.cds101.com/using-rstudio-server-to-clone-a-github-repo-as-a-new-project.html#step---2
 
+**IMPORTANT:** It is totally unrecommended to clone a git repository inside a
+cloud storage folder (e.g., Dropbox, OneDrive). Please note that GitHub serves
+the purpose of backing up the repository, so no cloud storage is necessary.
+Similarly, cloning the repository in a network folder may cause problems with
+the `renv` environment (see below); do it at your own risk!
+
 After cloning the repository,
 the Rstudio project will open automatically in the Rstudio IDE.
 If it doesn't, or you want to return later to the project in Rstudio,
