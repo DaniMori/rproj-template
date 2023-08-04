@@ -1,5 +1,5 @@
 
-# Respository `<repository-name>`
+# Repository `<repository-name>`
 
 <repository-description>
 
@@ -34,10 +34,12 @@ When using this template, please don’t forget to:
 
 ## Software components
 
-- Install [R version
-  4.3.0](https://cran.rstudio.com/bin/windows/base/old/4.3.0/): In
+Start by installing the following software components:
+
+- [R version
+  4.3.1](https://cran.rstudio.com/bin/windows/base/old/4.3.1/): In
   Windows, using the [binary
-  installer](https://cran.rstudio.com/bin/windows/base/old/4.3.0/R-4.3.0-win.exe)
+  installer](https://cran.rstudio.com/bin/windows/base/old/4.3.1/R-4.3.1-win.exe)
   is recommended.
 
 <!-- -->
@@ -45,24 +47,24 @@ When using this template, please don’t forget to:
 - [Rstudio
   Desktop](https://www.rstudio.com/products/rstudio/download/#download):
   Although not strictly necessary, it is recommended to install the
-  Rstudio IDE; for strict reproducibility, use build [2023.03.1+446 for
+  Rstudio IDE; for strict reproducibility, use build [2023.06.1+524 for
   Windows
-  10/11](https://download1.rstudio.org/electron/windows/RStudio-2023.03.1-446.exe).
+  10/11](https://download1.rstudio.org/electron/windows/RStudio-2023.06.1-524.exe).
 
 <!-- -->
 
 - [Quarto publishing system](https://quarto.org/): An additional
   component used by Rstudio to generate and publish literate computing
-  outputs. For strict reproducibility please use build 1.3.353; On
+  outputs. For strict reproducibility please use build 1.3.433; On
   Windows, use [the 64-bit
-  installer](https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.353/quarto-1.3.353-win.msi).
+  installer](https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.433/quarto-1.3.433-win.msi).
 
 <!-- -->
 
 - [Git client](https://git-scm.com/download): Install the Git client in
   order to be able to clone locally the project repository. On Windows,
   use [the 64-bit Windows
-  installer](https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe).
+  installer](https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe).
 
 ## Installing the project locally
 
@@ -75,6 +77,13 @@ specified. The URL that must be entered into the `Repository URL` text
 box is:
 
     <repository_url>
+
+**IMPORTANT:** It is totally unrecommended to clone a git repository
+inside a cloud storage folder (e.g., Dropbox, OneDrive). Please note
+that GitHub serves the purpose of backing up the repository, so no cloud
+storage is necessary. Similarly, cloning the repository in a network
+folder may cause problems with the `renv` environment (see below); do it
+at your own risk!
 
 After cloning the repository, the Rstudio project will open
 automatically in the Rstudio IDE. If it doesn’t, or you want to return
@@ -93,8 +102,9 @@ ready for restoring the environment.
 ## Restoring the environment
 
 The reproducible environment created by `renv` must be restored to
-install all the packages this project needs to be built properly. In
-order to this, you will need to install package `renv` first:
+install all the packages this project needs to be built properly. If
+`renv` does not initialize automatically (check the console for messages
+about this), you will need to manually install the package first:
 
 ``` r
 install.packages("renv")
