@@ -14,37 +14,70 @@ output: github_document
 
 **Schedule:** <HH:mm> - <HH:mm> <!-- # Init time - End time -->
 
-
 # Action points
 
 ## Subject <!-- # Replicate as many times as needed -->
 
-#### Debate <!-- # Delete if unneeded -->
+### Debate <!-- # Delete if unneeded -->
 
-- <!-- # Fill in and/or add bullet points as needed -->
-  
-- 
-  
-#### Agreements <!-- # Delete if unneeded; delete/repeat each point as needed -->
+-   <!-- # Fill in and/or add bullet points as needed -->
 
-- **Approved**: 
+-   
 
-- **Postponed**: 
+### Agreements <!-- # Delete if unneeded; delete/repeat each point as needed -->
 
-- **Rejected**: 
-  
-#### Tasks
+-   **Approved**:
 
-- **<Member(s)>**: <Task> [<deadline if applicable>] <!-- # Replicate as many times as needed -->
+-   **Postponed**:
+
+-   **Rejected**:
+
+### Tasks
+
+-   **\<Member(s)\>**:
+
+    <Task>
+
+    [<deadline if applicable>] <!-- # Replicate as many times as needed -->
 
 # Suggestions, questions <!-- # Delete if unneeded -->
 
-- <!-- # Fill in and/or add points as needed -->
+## Subject <!-- # Replicate as many times as needed -->
+
+### Debate <!-- # Delete if unneeded -->
+
+-   <!-- # Fill in and/or add bullet points as needed -->
+
+-   
+
+### Agreements <!-- # Delete if unneeded; delete/repeat each point as needed -->
+
+-   **Approved**:
+
+-   **Postponed**:
+
+-   **Rejected**:
+
+### Tasks
+
+-   **\<Member(s)\>**:
+
+    <Task>
+
+    [<deadline if applicable>] <!-- # Replicate as many times as needed -->
+
+# Next meeting
+
+-   **Date**: <YYYY-mm-dd> <!-- # Add date of next meeting -->
+
+-   **Schedule**: <HH:mm> - <HH:mm> <!-- # Init time - End time -->
 
 # **Task summary:**
 
-## <Member(s)> <!-- # Replicate as many times as needed -->
+## \<Member(s)\> <!-- # Replicate as many times as needed -->
 
-- <Task> [<deadline if applicable>]
+-   <Task>
 
-- 
+    [<deadline if applicable>]
+
+-   
