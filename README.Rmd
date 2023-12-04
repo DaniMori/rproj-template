@@ -48,11 +48,11 @@ When using this template, please don't forget to:
 
 Start by installing the following software components:
 
-- [R version 4.3.1][R]:
+- [R version 4.3.2][R]:
   In Windows, using the [binary installer][inst] is recommended.
 
-[R]: https://cran.rstudio.com/bin/windows/base/old/4.3.1/
-[inst]: https://cran.rstudio.com/bin/windows/base/old/4.3.1/R-4.3.1-win.exe
+[R]: https://cran.rstudio.com/bin/windows/base/old/4.3.2/
+[inst]: https://cran.rstudio.com/bin/windows/base/old/4.3.2/R-4.3.2-win.exe
 
 - [Rstudio Desktop][RS]: Although not strictly necessary, it is recommended
   to install the Rstudio IDE; for strict reproducibility, use build
