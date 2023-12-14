@@ -44,12 +44,11 @@ Start by installing the following software components:
 
 <!-- -->
 
-- [Rstudio
-  Desktop](https://www.rstudio.com/products/rstudio/download/#download):
+- [Rstudio Desktop](https://posit.co/download/rstudio-desktop/):
   Although not strictly necessary, it is recommended to install the
-  Rstudio IDE; for strict reproducibility, use build [2023.06.1+524 for
+  Rstudio IDE; for strict reproducibility, use build [2023.09.1+494 for
   Windows
-  10/11](https://download1.rstudio.org/electron/windows/RStudio-2023.06.1-524.exe).
+  10/11](https://download1.rstudio.org/electron/windows/RStudio-2023.09.1-494.exe).
 
 <!-- -->
 
@@ -57,14 +56,14 @@ Start by installing the following software components:
   component used by Rstudio to generate and publish literate computing
   outputs. For strict reproducibility please use build 1.3.433; On
   Windows, use [the 64-bit
-  installer](https://github.com/quarto-dev/quarto-cli/releases/download/v1.3.433/quarto-1.3.433-win.msi).
+  installer](https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.527/quarto-1.4.527-win.msi).
 
 <!-- -->
 
 - [Git client](https://git-scm.com/download): Install the Git client in
   order to be able to clone locally the project repository. On Windows,
   use [the 64-bit Windows
-  installer](https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe).
+  installer](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe).
 
 ## Installing the project locally
 
