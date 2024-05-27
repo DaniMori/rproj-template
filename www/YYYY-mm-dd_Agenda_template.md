@@ -10,14 +10,31 @@ gfm: default
 
 **Location:** <Online/Location> (<Platform>: <URL>)
 
+**Caller:** Daniel Morillo Cuadrado
+[dvmorillo\@psi.uned.es](mailto:dvmorillo@psi.uned.es){.email} \[DMC\]
+
+**Invitees:**
+
+-   <name surname> [<email>](email){.email} \[INITIALS\]
+
+-   ...
+
 # Preparation
 
 -   Pen & paper (or equivalent) to take notes
 
 -   <Previous task>
 
+-   ...
+
 # Action points
 
-1.  Point (<duration>')
+1.  <Point> (<duration>')
 
 2.  ...
+
+**Attachments:**
+
+-   [<File name>](URL)
+
+-   ...
