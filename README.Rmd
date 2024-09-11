@@ -7,6 +7,7 @@ editor_options:
 ---
 
 ```{r config}
+#| echo: false
 # TODO: Substitute "<repository-name>" by your own repository name, e.g.:
 #   REPOSITORY_NAME <- "my-amazing-repo"
 REPOSITORY_NAME <- "<repository-name>"
