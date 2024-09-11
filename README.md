@@ -115,3 +115,11 @@ your own "README.md" file. To use it, follow these instructions:
 
 5.  In section "Attributions", add any additional attributions to software
     components you will use in your project.
+
+6.  Knit the "README.Rmd" file.[1]
+
+[1]: Please take into account that knitting "README.Rmd" will output a new
+"README.md" file, overwriting this one.
+
+7.  Commit (i.e., `git commit`) the changes to "README.md" and push (`git push`)
+    them to your GitHub repository.
