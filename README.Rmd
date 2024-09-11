@@ -6,7 +6,17 @@ editor_options:
     canonical: false
 ---
 
-# Repository `<repository-name>`
+```{r config}
+# TODO: Substitute "<repository-name>" by your own repository name, e.g.:
+#   REPOSITORY_NAME <- "my-amazing-repo"
+REPOSITORY_NAME <- "<repository-name>"
+
+# TODO: Substitute "<username>" by your own GitHub user name, e.g.:
+#   GITHUB_USERNAME <- "JohnDoe"
+GITHUB_USERNAME <- "<username>"
+```
+
+# Repository ``r REPOSITORY_NAME``
 
 <repository-description>
 
@@ -97,7 +107,7 @@ Rstudio project in the folder specified.
 The URL that must be entered into the `Repository URL` text box is:
 
 ```
-<repository_url>
+https://github.com/`r GITHUB_USERNAME`/`r REPOSITORY_NAME`
 ```
 
 [CR]: https://book.cds101.com/using-rstudio-server-to-clone-a-github-repo-as-a-new-project.html#step---2
@@ -139,15 +149,15 @@ button in Rstudio's "Packages" tab to restore the environment. Alternatively,
 you can type in the console:
 
 ```r         
-renv::restore()
+renv::restore(prompt = FALSE)
 ```
 
 # Repository structure
 
 The file structure of this repository is as follows:
 
-```         
-<repository-folder>
+```
+`r REPOSITORY_NAME`
 |
 |--- apps         (To store apps, e.g. in Shiny)
 |
