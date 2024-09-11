@@ -18,39 +18,36 @@ GITHUB_USERNAME <- "<username>"
 
 # Repository ``r REPOSITORY_NAME``
 
-<repository-description>
+<!-- TODO: Add a repository description -->
+<This is a free text repository description.>
 
 # License
+
+<!-- TODO: Choose a license and update this section, if necessary -->
 
 This template is licensed under the
 [Creative Commons Attribution 4.0 International license][license]. Please
 see the [license file][licfile].
 
-When using this template, please don't forget to:
-
-- Adapt this license section to your own needs
-
-- License your own content, and remember that [open is better][choose].
-
-- Link to the [original license][license] and give appropriate credit; please do
-  so by including the following in the "License" section of the README.md file
-  in your own project:
-  
-  > ## Attributions
-  >
-  > This project makes use of the [rproj-template][selflink] Github template
-  > created by [Daniel Morillo][profile] and licensed under the 
-  > [Creative Commons Attribution 4.0 International license][license].
-
 [license]: https://creativecommons.org/licenses/by/4.0/
 
 [licfile]: LICENSE.md
 
-[choose]: https://choosealicense.com/
+## Attributions
+
+### Rstudio project template
+
+This project makes use of the [rproj-template][selflink] Github template
+created by [Daniel Morillo][profile] and licensed under the 
+[Creative Commons Attribution 4.0 International license][license].
 
 [selflink]: https://github.com/DaniMori/rproj-template
 
 [profile]: https://github.com/DaniMori
+
+<!-- TODO: Add attributions to other software components, if necessary -->
+
+### <Software component>
 
 # Project installation
 
