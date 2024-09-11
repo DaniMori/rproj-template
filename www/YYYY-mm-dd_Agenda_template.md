@@ -10,12 +10,12 @@ gfm: default
 
 **Location:** <Online/Location> (<Platform>: <URL>)
 
-**Caller:** Daniel Morillo Cuadrado
-[dvmorillo\@psi.uned.es](mailto:dvmorillo@psi.uned.es){.email} \[DMC\]
+**Caller:** <Name Surname> \[INITIALS\]
+[\<address\>\@\<domain.edu\>](mailto:%address@domain.edu){.email} \[INITIALS\]
 
 **Invitees:**
 
--   <name surname> [<email>](email){.email} \[INITIALS\]
+-   <name surname> [<email>](mailto:email){.email} \[INITIALS\]
 
 -   ...
 
