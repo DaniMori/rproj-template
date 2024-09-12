@@ -275,6 +275,11 @@
       ],
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104"
     },
+    "pak": {
+      "Package": "pak",
+      "Version": "0.8.0",
+      "Source": "Repository"
+    },
     "processx": {
       "Package": "processx",
       "Version": "3.8.4",
