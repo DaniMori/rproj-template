@@ -10,15 +10,15 @@ output: github_document
 
 **Declined:** <!-- # Delete if unneeded -->
 
-**Scribe:** <nombre de asistente>
+**Scribe:** <attendee name>
 
 **Schedule:** <HH:mm> - <HH:mm> <!-- # Init time - End time -->
 
 # Action points
 
-## Subject <!-- # Replicate as many times as needed -->
+## Subject <!-- # Duplicate as many times as needed -->
 
-### Debate <!-- # Delete if unneeded -->
+### Discussion <!-- # Delete if unneeded -->
 
 -   <!-- # Fill in and/or add bullet points as needed -->
 
@@ -44,7 +44,7 @@ output: github_document
 
 ## Subject <!-- # Replicate as many times as needed -->
 
-### Debate <!-- # Delete if unneeded -->
+### Discussion <!-- # Delete if unneeded -->
 
 -   <!-- # Fill in and/or add bullet points as needed -->
 
