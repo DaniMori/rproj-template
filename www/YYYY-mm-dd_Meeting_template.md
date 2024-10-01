@@ -34,11 +34,8 @@ output: github_document
 
 ### Tasks
 
--   **\<Member(s)\>**:
-
-    <Task>
-
-    [<deadline if applicable>] <!-- # Replicate as many times as needed -->
+-   **\<Member(s)\>**: \<Task\> [\<deadline in format:mm-dd/ASAP/ND\>]
+    <!-- # Replicate as many times as needed -->
 
 # Suggestions, questions <!-- # Delete if unneeded -->
 
@@ -60,11 +57,8 @@ output: github_document
 
 ### Tasks
 
--   **\<Member(s)\>**:
-
-    <Task>
-
-    [<deadline if applicable>] <!-- # Replicate as many times as needed -->
+-   **\<Member(s)\>**: \<Task\> [\<deadline in format:mm-dd/ASAP/ND\>]
+    <!-- # Replicate as many times as needed -->
 
 # Next meeting
 
@@ -77,8 +71,6 @@ output: github_document
 
 ## \<Member(s)\> <!-- # Replicate as many times as needed -->
 
--   <Task>
-
-    [<deadline if applicable>]
+-   \<Task\> [\<deadline in format:mm-dd/ASAP/ND\>]
 
 -   
