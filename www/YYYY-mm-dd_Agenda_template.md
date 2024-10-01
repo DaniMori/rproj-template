@@ -33,6 +33,8 @@ gfm: default
 
 2.  ...
 
+-   Suggestions, questions (<duration>')
+
 **Attachments:**
 
 -   [<File name>](URL)
