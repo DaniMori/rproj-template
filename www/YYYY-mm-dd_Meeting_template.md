@@ -1,6 +1,6 @@
 ---
-title:  "<!-- # Add title here -->"
-date:   "<!-- # Add date of meeting here -->"
+title:  "<!-- # [Project]: Meeting title -->"
+date:   "<!-- # Date of meeting in format: YYYY-mm-dd -->"
 output: github_document
 ---
 
@@ -12,7 +12,7 @@ output: github_document
 
 **Scribe:** <attendee name>
 
-**Schedule:** <HH:mm> - <HH:mm> <!-- # Init time - End time -->
+**Schedule:** <HH:mm> - <HH:mm> <TZ> <!-- # Init time - End time, Time zone -->
 
 # Action points
 
@@ -70,7 +70,8 @@ output: github_document
 
 -   **Date**: <YYYY-mm-dd> <!-- # Add date of next meeting -->
 
--   **Schedule**: <HH:mm> - <HH:mm> <!-- # Init time - End time -->
+-   **Schedule**: <HH:mm> - <HH:mm> <TZ>
+    <!-- # Init time - End time, Time zone -->
 
 # **Task summary:**
 
