@@ -48,11 +48,13 @@ see the [license file][licfile].
 
 This project makes use of the [rproj-template][selflink] Github template
 created by [Daniel Morillo][profile] and licensed under the 
-[Creative Commons Attribution 4.0 International license][license].
+[Creative Commons Attribution 4.0 International license][repo_lic].
 
 [selflink]: https://github.com/DaniMori/rproj-template
 
 [profile]: https://github.com/DaniMori
+
+[repo_lic]: https://creativecommons.org/licenses/by/4.0
 
 <!-- TODO: Add attributions to other software components, if necessary -->
 
