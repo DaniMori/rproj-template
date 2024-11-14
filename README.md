@@ -80,10 +80,12 @@ that has been created in the project folder when cloning the repository.
 
 ## Restoring the environment
 
-The reproducible environment created by `renv` must be restored to install all
-the packages this project needs to be built properly. If `renv` does not
-initialize automatically (check the console for messages about this), you will
-need to manually install the package first:
+The reproducible environment created by
+[{renv}](https://rstudio.github.io/renv/) must be restored to install all the
+packages this project needs to be built properly. If
+[{renv}](https://rstudio.github.io/renv/) does not initialize automatically
+(check the console for messages about this), you will need to manually install
+the package first:
 
 ``` r
 install.packages("renv")
