@@ -56,7 +56,7 @@ repository as an Rstudio project in the folder specified. The URL that must be
 entered into the `Repository URL` text box will be of the form
 
 ```         
-https://github.com/<username>/<project-name>
+https://github.com/<username>/<project-name>.git
 ```
 
 where `<username>` is your GitHub user name, and `<project-name>` is the value
@@ -99,18 +99,21 @@ your own "README.md" file. To use it, follow these instructions:
 
 1.  Open file "README.Rmd" in the Rstudio editor
 
-2.  Substitute the values of the objects `REPOSITORY_NAME` in line 12 and
-    `GITHUB_USERNAME` in line 16 by your repository name and your GitHub user
-    name, respectively.
+2.  Substitute the values of objects `REPOSITORY_NAME`, `GITHUB_USERNAME`,
+    `AUTHOR_NAME`, and (only if your repository is owned by a [GitHub
+    organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)
+    instead of your own account) `GITHUB_OWNER` in lines 12 to 28 by your own
+    repository name, GitHub user name, name, and GitHub organization,
+    respectively.
 
-3.  Add a free text repository description (line 22), to help other people
+3.  Add a free text repository description (line 49), to help other people
     understand the purpose of your project. This can be the same text you input
     previously in the "Description" field when creating your repository (see
     step 4 in the "How to use this template" main section), or a more detailed
     one.
 
 4.  If necessary, [choose a license](https://choosealicense.com/) and update the
-    "License" section. If you do so, remember to substitute [the license
+    "License" section. If you do so, remember also to substitute [the license
     file](LICENSE.md) by your own license.
 
 5.  In section "Attributions", add any additional attributions to software
@@ -123,3 +126,4 @@ your own "README.md" file. To use it, follow these instructions:
 
 (\*) Please take into account that knitting "README.Rmd" will output a new
 "README.md" file, overwriting this one.
+

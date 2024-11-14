@@ -12,10 +12,28 @@ editor_options:
 # TODO: Substitute "<repository-name>" by your own repository name, e.g.:
 #   REPOSITORY_NAME <- "my-amazing-repo"
 REPOSITORY_NAME <- "<repository-name>"
-
 # TODO: Substitute "<username>" by your own GitHub user name, e.g.:
 #   GITHUB_USERNAME <- "JohnDoe"
 GITHUB_USERNAME <- "<username>"
+# TODO: Substitute "<author_name>" by your own name, as you want to be credited
+#   in attributions, e.g.:
+#   AUTHOR_NAME <- "John M. Doe, Ph.D."
+AUTHOR_NAME     <- "<author_name>"
+# TODO: If your project is created under another "GitHub owner" i.e., a GitHub
+#   organization,
+#   https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations
+#   change GITHUB_USERNAME by the proper owner. E.g., if the owner of the
+#   repository is GitHub organization "ACME", change the next line to:
+#   GITHUB_OWNER <- "ACME"
+GITHUB_OWNER    <- GITHUB_USERNAME
+
+# Objects created automatically (no need to edit)
+
+## Repository configuration objects
+profile_url     <- paste0("https://github.com/", GITHUB_OWNER)
+repo_url        <- paste(profile_url, REPOSITORY_NAME, sep = '/')
+https_clone_url <- paste0(repo_url, '.git')
+creation_year   <- lubridate::now() |> lubridate::year()
 
 ## Software version objects
 r_version     <- paste(version$major, version$minor, sep = '.')
@@ -106,7 +124,7 @@ Rstudio project in the folder specified.
 The URL that must be entered into the `Repository URL` text box is:
 
 ```
-https://github.com/`r GITHUB_USERNAME`/`r REPOSITORY_NAME`
+`r https_clone_url`
 ```
 
 [CR]: https://book.cds101.com/using-rstudio-server-to-clone-a-github-repo-as-a-new-project.html#step---2
