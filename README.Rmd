@@ -52,11 +52,11 @@ git_version   <- gitr::git_version()
 
 <!-- TODO: Choose a license and update this section, if necessary -->
 
-This template is licensed under the
-[Creative Commons Attribution 4.0 International license][license]. Please
-see the [license file][licfile].
+[Repository `r REPOSITORY_NAME`](`r repo_url`) © `r creation_year` by
+[`r AUTHOR_NAME`](`r profile_url`) is licensed under [CC BY 4.0][license].
+Please see the [license file][licfile].
 
-[license]: https://creativecommons.org/licenses/by/4.0/
+[license]: https://creativecommons.org/licenses/by/4.0
 
 [licfile]: LICENSE.md
 

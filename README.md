@@ -2,32 +2,37 @@
 
 Template for Rstudio project repositories
 
-# License
+# License {#license}
 
-This template is licensed under the [Creative Commons Attribution 4.0
-International license](https://creativecommons.org/licenses/by/4.0/).
-Please see the [license file](LICENSE.md).
+[Repository rpoj_template](https://github.com/DaniMori/rproj-template) © 2024 by
+[Daniel Morillo](https://github.com/DaniMori) is licensed under[Creative Commons
+Attribution 4.0 International
+license](https://creativecommons.org/licenses/by/4.0/). Please see the [license
+file](LICENSE.md).
 
 When using this template, please don’t forget to:
 
-- Adapt this license section to your own needs
+-   License your own content, and remember that [open is
+    better](https://choosealicense.com/).
 
-- License your own content, and remember that [open is
-  better](https://choosealicense.com/).
+-   Create a license section, similar to this one, that suits to your own needs
+    (See step 4 in [section Creating your own "README.md"
+    file](#create-own-readme)).
 
-- Link to the [original
-  license](https://creativecommons.org/licenses/by/4.0/) and give
-  appropriate credit; please do so by including the following in the
-  “License” section of the README.md file in your own project:
+-   Link to the [original license](https://creativecommons.org/licenses/by/4.0/)
+    and give appropriate credit; please do so by including the following in the
+    “License” section of the README.md file in your own project, along with any
+    other softwre attributions you credit:
 
-  > ## Attributions
-  >
-  > This project makes use of the
-  > [rproj-template](https://github.com/DaniMori/rproj-template) Github
-  > template created by [Daniel Morillo](https://github.com/DaniMori)
-  > and licensed under the [Creative Commons Attribution 4.0
-  > International
-  > license](https://creativecommons.org/licenses/by/4.0/).
+    > ## Attributions
+    >
+    > ### rproj-template
+    >
+    > This project makes use of the
+    > [rproj-template](https://github.com/DaniMori/rproj-template) Github
+    > template © 2024 by [Daniel Morillo](https://github.com/DaniMori), licensed
+    > under the [Creative Commons Attribution 4.0 International
+    > license](https://creativecommons.org/licenses/by/4.0/).
 
 # How to use this template
 
@@ -92,7 +97,7 @@ you can type in the console:
 renv::restore(prompt = FALSE)
 ```
 
-## Creating your own "README.md" file
+## Creating your own "README.md" file {#create-own-readme}
 
 This template provides the "README.Rmd" Rmarkdown file to facilitate creating
 your own "README.md" file. To use it, follow these instructions:
