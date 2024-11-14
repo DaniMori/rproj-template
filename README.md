@@ -26,7 +26,7 @@ When using this template, please don’t forget to:
 
     > ## Attributions
     >
-    > ### rproj-template
+    > ### Rstudio project template
     >
     > This project makes use of the
     > [rproj-template](https://github.com/DaniMori/rproj-template) Github
@@ -133,4 +133,3 @@ your own "README.md" file. To use it, follow these instructions:
 
 (\*) Please take into account that knitting "README.Rmd" will output a new
 "README.md" file, overwriting this one.
-
