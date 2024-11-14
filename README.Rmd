@@ -16,6 +16,13 @@ REPOSITORY_NAME <- "<repository-name>"
 # TODO: Substitute "<username>" by your own GitHub user name, e.g.:
 #   GITHUB_USERNAME <- "JohnDoe"
 GITHUB_USERNAME <- "<username>"
+
+## Software version objects
+r_version     <- paste(version$major, version$minor, sep = '.')
+rs_version    <- rstudioapi::versionInfo()$long_version
+rs_version_dl <- rs_version |> stringr::str_replace('\\+', '-')
+q_version     <- quarto::quarto_version()
+git_version   <- gitr::git_version()
 ```
 
 # Repository ``r REPOSITORY_NAME``
@@ -56,15 +63,6 @@ created by [Daniel Morillo][profile] and licensed under the
 ## Software components
 
 Start by installing the following software components:
-
-```{r software-versions}
-#| echo: false
-r_version     <- paste(version$major, version$minor, sep = '.')
-rs_version    <- rstudioapi::versionInfo()$long_version
-rs_version_dl <- rs_version |> stringr::str_replace('\\+', '-')
-q_version     <- quarto::quarto_version()
-git_version   <- gitr::git_version()
-```
 
 - [R version `r r_version`][R]:
   In Windows, using the [binary installer][inst] is recommended.
