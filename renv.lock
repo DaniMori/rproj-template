@@ -278,7 +278,7 @@
       "Package": "pak",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://r-lib.github.io/p/pak/stable/win.binary/mingw32/x86_64",
       "Requirements": [
         "R",
         "tools",
