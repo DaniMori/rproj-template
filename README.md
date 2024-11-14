@@ -1,6 +1,6 @@
-# Repository `<repository-name>`
+# Repository `rproj-template`
 
-<repository-description>
+Template for Rstudio project repositories
 
 # License
 
