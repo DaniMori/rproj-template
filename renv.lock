@@ -107,13 +107,13 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "1.0.1",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "3fd29944b231036ad67c3edb32e02201"
+      "Hash": "e9651417729bbe7472e32b5027370e79"
     },
     "fastmap": {
       "Package": "fastmap",
@@ -312,7 +312,7 @@
       "Package": "pak",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://r-lib.github.io/p/pak/stable/win.binary/mingw32/x86_64",
       "Requirements": [
         "R",
         "tools",
