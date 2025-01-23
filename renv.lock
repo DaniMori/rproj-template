@@ -21,14 +21,14 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.13-1",
+      "Version": "1.0.14",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "methods",
         "utils"
       ],
-      "Hash": "6b868847b365672d6c1677b1608da9ed"
+      "Hash": "e7bdd9ee90e96921ca8a0f1972d66682"
     },
     "base64enc": {
       "Package": "base64enc",
@@ -310,15 +310,15 @@
     },
     "pak": {
       "Package": "pak",
-      "Version": "0.8.0",
+      "Version": "0.8.0.1",
       "Source": "Repository",
-      "Repository": "https://r-lib.github.io/p/pak/stable/win.binary/mingw32/x86_64",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "tools",
         "utils"
       ],
-      "Hash": "019d4d5634410800a96b69737fb2dbac"
+      "Hash": "7a5f3ae05388bfd4adfeb5d7fad1b8de"
     },
     "processx": {
       "Package": "processx",
@@ -386,14 +386,14 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.1.4",
+      "Version": "1.1.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "3eec01f8b1dee337674b2e34ab1f9bc1"
+      "Hash": "724dcc1490cd7071ee75ca2994a5446e"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
