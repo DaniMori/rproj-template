@@ -2,7 +2,7 @@
 
 Template for Rstudio project repositories
 
-# License {#license}
+# License
 
 [Repository rpoj_template](https://github.com/DaniMori/rproj-template) © 2024 by
 [Daniel Morillo](https://github.com/DaniMori) is licensed under[Creative Commons
@@ -17,7 +17,7 @@ When using this template, please don’t forget to:
 
 -   Create a license section, similar to this one, that suits to your own needs
     (See step 4 in [section Creating your own "README.md"
-    file](#create-own-readme)).
+    file](#creating-your-own-readmemd-file)).
 
 -   Link to the [original license](https://creativecommons.org/licenses/by/4.0/)
     and give appropriate credit; please do so by including the following in the
@@ -99,7 +99,7 @@ you can type in the console:
 renv::restore(prompt = FALSE)
 ```
 
-## Creating your own "README.md" file {#create-own-readme}
+## Creating your own "README.md" file
 
 This template provides the "README.Rmd" Rmarkdown file to facilitate creating
 your own "README.md" file. To use it, follow these instructions:
