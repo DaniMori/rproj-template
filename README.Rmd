@@ -9,9 +9,6 @@ editor_options:
 ```{r config}
 #| echo: false
 
-# TODO: Substitute "<repository-name>" by your own repository name, e.g.:
-#   REPOSITORY_NAME <- "my-amazing-repo"
-REPOSITORY_NAME <- "<repository-name>"
 # TODO: Substitute "<username>" by your own GitHub user name, e.g.:
 #   GITHUB_USERNAME <- "JohnDoe"
 GITHUB_USERNAME <- "<username>"
@@ -19,21 +16,18 @@ GITHUB_USERNAME <- "<username>"
 #   in attributions, e.g.:
 #   AUTHOR_NAME <- "John M. Doe, Ph.D."
 AUTHOR_NAME     <- "<author_name>"
-# TODO: If your project is created under another "GitHub owner" i.e., a GitHub
-#   organization,
-#   https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations
-#   change GITHUB_USERNAME by the proper owner. E.g., if the owner of the
-#   repository is GitHub organization "ACME", change the next line to:
-#   GITHUB_OWNER <- "ACME"
-GITHUB_OWNER    <- GITHUB_USERNAME
+# TODO: Change the followoing line to a fixed value if preferred, e.g.:
+#   creation_year   <- 2025L
+CREATION_YEAR   <- lubridate::now() |> lubridate::year()
+
 
 # Objects created automatically (no need to edit)
 
 ## Repository configuration objects
-profile_url     <- paste0("https://github.com/", GITHUB_OWNER)
-repo_url        <- paste(profile_url, REPOSITORY_NAME, sep = '/')
-https_clone_url <- paste0(repo_url, '.git')
-creation_year   <- lubridate::now() |> lubridate::year()
+profile_url     <- paste0("https://github.com/", GITHUB_USERNAME)
+https_clone_url <- git2r::remote_url()
+repo_url        <- https_clone_url |> tools::file_path_sans_ext()
+repo_name       <- basename(repo_url)
 
 ## Software version objects
 r_version     <- paste(version$major, version$minor, sep = '.')
@@ -43,7 +37,7 @@ q_version     <- quarto::quarto_version()
 git_version   <- gitr::git_version()
 ```
 
-# Repository ``r REPOSITORY_NAME``
+# Repository ``r repo_name``
 
 <!-- TODO: Add a repository description -->
 <This is a free text repository description.>
@@ -52,7 +46,7 @@ git_version   <- gitr::git_version()
 
 <!-- TODO: Choose a license and update this section, if necessary -->
 
-[Repository `r REPOSITORY_NAME`](`r repo_url`) © `r creation_year` by
+[Repository `r repo_name`](`r repo_url`) © `r CREATION_YEAR` by
 [`r AUTHOR_NAME`](`r profile_url`) is licensed under [CC BY 4.0][license].
 Please see the [license file][licfile].
 
@@ -174,7 +168,7 @@ renv::restore(prompt = FALSE)
 The file structure of this repository is as follows:
 
 ```
-`r REPOSITORY_NAME`
+`r repo_name`
 |
 |--- apps         (To store apps, e.g. in Shiny)
 |
