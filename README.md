@@ -106,14 +106,11 @@ your own "README.md" file. To use it, follow these instructions:
 
 1.  Open file "README.Rmd" in the Rstudio editor
 
-2.  Substitute the values of objects `REPOSITORY_NAME`, `GITHUB_USERNAME`,
-    `AUTHOR_NAME`, and (only if your repository is owned by a [GitHub
-    organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)
-    instead of your own account) `GITHUB_OWNER` in lines 12 to 28 by your own
-    repository name, GitHub user name, name, and GitHub organization,
-    respectively.
+2.  Substitute the values of objects `GITHUB_USERNAME`, `AUTHOR_NAME`, and
+    (optionally) `CREATION_YEAR` in lines 12 to 21 by your own GitHub user name,
+    name, and current year, respectively.
 
-3.  Add a free text repository description (line 49), to help other people
+3.  Add a free text repository description (line 43), to help other people
     understand the purpose of your project. This can be the same text you input
     previously in the "Description" field when creating your repository (see
     step 4 in the "How to use this template" main section), or a more detailed

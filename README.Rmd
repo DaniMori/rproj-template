@@ -16,7 +16,7 @@ GITHUB_USERNAME <- "<username>"
 #   in attributions, e.g.:
 #   AUTHOR_NAME <- "John M. Doe, Ph.D."
 AUTHOR_NAME     <- "<author_name>"
-# TODO: Change the followoing line to a fixed value if preferred, e.g.:
+# TODO: Change the following line to a fixed value if preferred, e.g.:
 #   creation_year   <- 2025L
 CREATION_YEAR   <- lubridate::now() |> lubridate::year()
 
