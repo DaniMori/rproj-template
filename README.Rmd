@@ -92,7 +92,8 @@ Start by installing the following software components:
 
 [RSv]: https://download1.rstudio.org/electron/windows/RStudio-`r rs_version_dl`.exe
 
-- [Quarto publishing system][Q]: An additional component used by Rstudio to
+- [Quarto publishing system][Q]: **Only for non-Rstudio users** (Quarto is
+already bundled with Rstudio) this additional component is necessary to
 generate and publish literate computing outputs. For strict reproducibility
 please use build `r q_version`; On Windows, use [the 64-bit installer][QW].
 
