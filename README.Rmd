@@ -177,6 +177,8 @@ The file structure of this repository is as follows:
 |
 |--- doc          (To store important documentation of the project)
 |    |
+|    |--- agendas (To store meeting agendas)
+|    |
 |    |--- minutes (To store meeting minutes)
 |
 |--- notebooks    (Notebooks to explore data and test processes live here)
