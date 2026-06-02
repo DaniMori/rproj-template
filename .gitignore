@@ -51,6 +51,7 @@ rsconnect/
 
 # Rmd outputs formats, other documents and files
 *.docx
+!www/minutes_styles.docx
 *.html
 *.pdf
 

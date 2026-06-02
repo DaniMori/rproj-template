@@ -1,7 +1,10 @@
 ---
 title:  "<!-- # [Project]: Meeting title -->"
 date:   "<!-- # Date of meeting in format: YYYY-mm-dd -->"
-output: github_document
+format:
+  docx:
+    reference-doc: ../../minutes_styles.docx
+gfm: default
 ---
 
 **Attendees:** <names and surnames of attendees>
@@ -20,22 +23,21 @@ output: github_document
 
 ### Discussion <!-- # Delete if unneeded -->
 
--   <!-- # Fill in and/or add bullet points as needed -->
+- <!-- # Fill in and/or add bullet points as needed -->
 
--   
+- 
 
 ### Agreements <!-- # Delete if unneeded; delete/repeat each point as needed -->
 
--   **Approved**:
+- **Approved**:
 
--   **Postponed**:
+- **Postponed**:
 
--   **Rejected**:
+- **Rejected**:
 
 ### Tasks
 
--   **\<Member(s)\>**: \<Task\> [\<deadline in format:mm-dd/ASAP/ND\>]
-    <!-- # Replicate as many times as needed -->
+- **\<Member(s)\>**: \<Task\> \[\<deadline in format:mm-dd/ASAP/ND\>\] <!-- # Replicate as many times as needed -->
 
 # Suggestions, questions <!-- # Delete if unneeded -->
 
@@ -43,34 +45,32 @@ output: github_document
 
 ### Discussion <!-- # Delete if unneeded -->
 
--   <!-- # Fill in and/or add bullet points as needed -->
+- <!-- # Fill in and/or add bullet points as needed -->
 
--   
+- 
 
 ### Agreements <!-- # Delete if unneeded; delete/repeat each point as needed -->
 
--   **Approved**:
+- **Approved**:
 
--   **Postponed**:
+- **Postponed**:
 
--   **Rejected**:
+- **Rejected**:
 
 ### Tasks
 
--   **\<Member(s)\>**: \<Task\> [\<deadline in format:mm-dd/ASAP/ND\>]
-    <!-- # Replicate as many times as needed -->
+- **\<Member(s)\>**: \<Task\> \[\<deadline in format:mm-dd/ASAP/ND\>\] <!-- # Replicate as many times as needed -->
 
 # Next meeting
 
--   **Date**: <YYYY-mm-dd> <!-- # Add date of next meeting -->
+- **Date**: <YYYY-mm-dd> <!-- # Add date of next meeting -->
 
--   **Schedule**: <HH:mm> - <HH:mm> <TZ>
-    <!-- # Init time - End time, Time zone -->
+- **Schedule**: <HH:mm> - <HH:mm> <TZ> <!-- # Init time - End time, Time zone -->
 
 # **Task summary:**
 
 ## \<Member(s)\> <!-- # Replicate as many times as needed -->
 
--   \<Task\> [\<deadline in format:mm-dd/ASAP/ND\>]
+- \<Task\> \[\<deadline in format:mm-dd/ASAP/ND\>\]
 
--   
+- 
