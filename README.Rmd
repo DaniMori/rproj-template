@@ -164,6 +164,9 @@ console:
 renv::restore(prompt = FALSE)
 ```
 
+After the environment has been successfully restored, restart the R session in
+the menu "Session" -\> "Restart R" (or using the keyboard shortcut `CTRL + SHIFT + F10`).
+
 # Repository structure
 
 The file structure of this repository is as follows:
