@@ -53,6 +53,7 @@ rsconnect/
 *.docx
 !www/minutes_styles.docx
 *.html
+!www/title-slide.html
 *.pdf
 
 # Directories and links
